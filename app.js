@@ -32,7 +32,7 @@ app.use(xss());
 
 
 app.use('/', (req, res) => { 
-  send('Hello there')
+  res.send('Hello there')
 })
 
 // routes
